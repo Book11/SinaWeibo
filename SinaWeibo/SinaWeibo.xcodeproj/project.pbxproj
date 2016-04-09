@@ -17,6 +17,7 @@
 		8F1C64D01CB76E680089D3F0 /* ZBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C64CF1CB76E680089D3F0 /* ZBMessageViewController.swift */; };
 		8F1C64D21CB76E750089D3F0 /* ZBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C64D11CB76E750089D3F0 /* ZBProfileViewController.swift */; };
 		8F1C64D41CB770900089D3F0 /* ZBTaBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C64D31CB770900089D3F0 /* ZBTaBarController.swift */; };
+		8F4294FC1CB9328C004BA172 /* ZBConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4294FB1CB9328C004BA172 /* ZBConstant.swift */; };
 		8F8666301CB7D566009047FE /* ZBMainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86662F1CB7D566009047FE /* ZBMainTabBar.swift */; };
 		8F8666321CB7E7FE009047FE /* ZBBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8666311CB7E7FE009047FE /* ZBBaseTableViewController.swift */; };
 		8F8666341CB7E82B009047FE /* ZBVistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8666331CB7E82B009047FE /* ZBVistorView.swift */; };
@@ -60,6 +61,7 @@
 		8F1C64CF1CB76E680089D3F0 /* ZBMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBMessageViewController.swift; sourceTree = "<group>"; };
 		8F1C64D11CB76E750089D3F0 /* ZBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBProfileViewController.swift; sourceTree = "<group>"; };
 		8F1C64D31CB770900089D3F0 /* ZBTaBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBTaBarController.swift; sourceTree = "<group>"; };
+		8F4294FB1CB9328C004BA172 /* ZBConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBConstant.swift; sourceTree = "<group>"; };
 		8F86662F1CB7D566009047FE /* ZBMainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBMainTabBar.swift; sourceTree = "<group>"; };
 		8F8666311CB7E7FE009047FE /* ZBBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBBaseTableViewController.swift; sourceTree = "<group>"; };
 		8F8666331CB7E82B009047FE /* ZBVistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBVistorView.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				8F1C64821CB76AA00089D3F0 /* AppDelegate.swift */,
+				8F4294FB1CB9328C004BA172 /* ZBConstant.swift */,
 				8F1C64B11CB76CE30089D3F0 /* Extension */,
 				8F1C64B21CB76CE30089D3F0 /* Library */,
 				8F1C64B31CB76CE30089D3F0 /* Model */,
@@ -575,6 +578,7 @@
 				8F1C64D41CB770900089D3F0 /* ZBTaBarController.swift in Sources */,
 				8F1C64CE1CB76E540089D3F0 /* ZBHomeViewController.swift in Sources */,
 				8F8666301CB7D566009047FE /* ZBMainTabBar.swift in Sources */,
+				8F4294FC1CB9328C004BA172 /* ZBConstant.swift in Sources */,
 				8F1C64CC1CB76E420089D3F0 /* ZBDiscoverViewController.swift in Sources */,
 				8F1C64D21CB76E750089D3F0 /* ZBProfileViewController.swift in Sources */,
 			);
