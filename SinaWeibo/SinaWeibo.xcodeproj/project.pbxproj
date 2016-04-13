@@ -20,11 +20,15 @@
 		8F1C64D41CB770900089D3F0 /* ZBTaBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C64D31CB770900089D3F0 /* ZBTaBarController.swift */; };
 		8F4294FC1CB9328C004BA172 /* ZBConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4294FB1CB9328C004BA172 /* ZBConstant.swift */; };
 		8F7F31BD1CB9FA3F0064F0C4 /* ZBOauthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F31BC1CB9FA3F0064F0C4 /* ZBOauthViewController.swift */; };
+		8F8261851CBD4D2100485AE6 /* ZBNewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8261841CBD4D2100485AE6 /* ZBNewFeatureViewController.swift */; };
 		8F8666301CB7D566009047FE /* ZBMainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86662F1CB7D566009047FE /* ZBMainTabBar.swift */; };
 		8F8666321CB7E7FE009047FE /* ZBBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8666311CB7E7FE009047FE /* ZBBaseTableViewController.swift */; };
 		8F8666341CB7E82B009047FE /* ZBVistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8666331CB7E82B009047FE /* ZBVistorView.swift */; };
 		8F9F06F81CBBFDCB00857690 /* ZBUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F06F71CBBFDCB00857690 /* ZBUserAccount.swift */; };
 		8F9F06FB1CBC053600857690 /* ZBUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F06FA1CBC053600857690 /* ZBUserAccountViewModel.swift */; };
+		8FC805601CBD2FA200066FD6 /* ZBWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC8055F1CBD2FA200066FD6 /* ZBWelcomeViewController.swift */; };
+		8FD6A6361CBE247900E57BC1 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6A6351CBE247900E57BC1 /* UIBarButtonItem+Extension.swift */; };
+		8FD6A6381CBE2AF900E57BC1 /* ZBHomeTittleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6A6371CBE2AF900E57BC1 /* ZBHomeTittleButton.swift */; };
 		BFEFC68753EE6BFC5838EA2C /* Pods_SinaWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3649A8630CE1C09C30B18D /* Pods_SinaWeibo.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,11 +72,15 @@
 		8F1C64D31CB770900089D3F0 /* ZBTaBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBTaBarController.swift; sourceTree = "<group>"; };
 		8F4294FB1CB9328C004BA172 /* ZBConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBConstant.swift; sourceTree = "<group>"; };
 		8F7F31BC1CB9FA3F0064F0C4 /* ZBOauthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBOauthViewController.swift; sourceTree = "<group>"; };
+		8F8261841CBD4D2100485AE6 /* ZBNewFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBNewFeatureViewController.swift; sourceTree = "<group>"; };
 		8F86662F1CB7D566009047FE /* ZBMainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBMainTabBar.swift; sourceTree = "<group>"; };
 		8F8666311CB7E7FE009047FE /* ZBBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBBaseTableViewController.swift; sourceTree = "<group>"; };
 		8F8666331CB7E82B009047FE /* ZBVistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBVistorView.swift; sourceTree = "<group>"; };
 		8F9F06F71CBBFDCB00857690 /* ZBUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBUserAccount.swift; sourceTree = "<group>"; };
 		8F9F06FA1CBC053600857690 /* ZBUserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBUserAccountViewModel.swift; sourceTree = "<group>"; };
+		8FC8055F1CBD2FA200066FD6 /* ZBWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBWelcomeViewController.swift; sourceTree = "<group>"; };
+		8FD6A6351CBE247900E57BC1 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		8FD6A6371CBE2AF900E57BC1 /* ZBHomeTittleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBHomeTittleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +167,7 @@
 				8F1C64821CB76AA00089D3F0 /* AppDelegate.swift */,
 				8F4294FB1CB9328C004BA172 /* ZBConstant.swift */,
 				8F1C64B11CB76CE30089D3F0 /* Extension */,
+				8FC8055B1CBD2F6F00066FD6 /* NewFeatures(欢迎和新特性) */,
 				8F1C64B21CB76CE30089D3F0 /* Library */,
 				8F1C64B31CB76CE30089D3F0 /* Model(全局模型) */,
 				8F9F06F91CBC050300857690 /* ViewModel(全局ViewModel) */,
@@ -171,6 +180,7 @@
 		8F1C64B11CB76CE30089D3F0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8FD6A6351CBE247900E57BC1 /* UIBarButtonItem+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -264,6 +274,7 @@
 		8F1C64BC1CB76CE30089D3F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8FD6A6371CBE2AF900E57BC1 /* ZBHomeTittleButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -420,6 +431,40 @@
 				8F9F06FA1CBC053600857690 /* ZBUserAccountViewModel.swift */,
 			);
 			name = "ViewModel(全局ViewModel)";
+			sourceTree = "<group>";
+		};
+		8FC8055B1CBD2F6F00066FD6 /* NewFeatures(欢迎和新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				8FC8055C1CBD2F6F00066FD6 /* Controller */,
+				8FC8055D1CBD2F6F00066FD6 /* Model */,
+				8FC8055E1CBD2F6F00066FD6 /* View */,
+			);
+			name = "NewFeatures(欢迎和新特性)";
+			path = Library/NewFeatures;
+			sourceTree = "<group>";
+		};
+		8FC8055C1CBD2F6F00066FD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FC8055F1CBD2FA200066FD6 /* ZBWelcomeViewController.swift */,
+				8F8261841CBD4D2100485AE6 /* ZBNewFeatureViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FC8055D1CBD2F6F00066FD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FC8055E1CBD2F6F00066FD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B9309A1817FB7580F04B339A /* Frameworks */ = {
@@ -626,18 +671,22 @@
 			files = (
 				8F9F06FB1CBC053600857690 /* ZBUserAccountViewModel.swift in Sources */,
 				8F8666321CB7E7FE009047FE /* ZBBaseTableViewController.swift in Sources */,
+				8FD6A6381CBE2AF900E57BC1 /* ZBHomeTittleButton.swift in Sources */,
 				8F7F31BD1CB9FA3F0064F0C4 /* ZBOauthViewController.swift in Sources */,
 				8F1C64D01CB76E680089D3F0 /* ZBMessageViewController.swift in Sources */,
 				8F1C64831CB76AA00089D3F0 /* AppDelegate.swift in Sources */,
 				8F8666341CB7E82B009047FE /* ZBVistorView.swift in Sources */,
 				8F1C64D41CB770900089D3F0 /* ZBTaBarController.swift in Sources */,
 				8F1C64CE1CB76E540089D3F0 /* ZBHomeViewController.swift in Sources */,
+				8F8261851CBD4D2100485AE6 /* ZBNewFeatureViewController.swift in Sources */,
+				8FC805601CBD2FA200066FD6 /* ZBWelcomeViewController.swift in Sources */,
 				8F8666301CB7D566009047FE /* ZBMainTabBar.swift in Sources */,
 				8F4294FC1CB9328C004BA172 /* ZBConstant.swift in Sources */,
 				8F1C64CC1CB76E420089D3F0 /* ZBDiscoverViewController.swift in Sources */,
 				8F9F06F81CBBFDCB00857690 /* ZBUserAccount.swift in Sources */,
 				8F1C64D21CB76E750089D3F0 /* ZBProfileViewController.swift in Sources */,
 				8F1B1B8B1CBBC06E00203AF0 /* ZBNetworkingTool.swift in Sources */,
+				8FD6A6361CBE247900E57BC1 /* UIBarButtonItem+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
