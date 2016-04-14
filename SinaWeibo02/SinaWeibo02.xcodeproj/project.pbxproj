@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075D1EC9CC3D22F708322E51 /* Pods_SinaWeibo02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B475769FC000C9C5422070FB /* Pods_SinaWeibo02.framework */; };
+		8FBB00EE1CBE7E5600671817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB00ED1CBE7E5600671817 /* AppDelegate.swift */; };
+		8FBB00F51CBE7E5600671817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBB00F41CBE7E5600671817 /* Assets.xcassets */; };
+		8FBB01031CBE7E5600671817 /* SinaWeibo02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB01021CBE7E5600671817 /* SinaWeibo02Tests.swift */; };
+		8FBB010E1CBE7E5600671817 /* SinaWeibo02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB010D1CBE7E5600671817 /* SinaWeibo02UITests.swift */; };
+		8FBB01361CBE859F00671817 /* ZBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB01351CBE859F00671817 /* ZBBaseViewController.swift */; };
+		8FBB01381CBE87DC00671817 /* ZBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB01371CBE87DC00671817 /* ZBDiscoverViewController.swift */; };
+		8FBB013A1CBE881400671817 /* ZBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB01391CBE881400671817 /* ZBHomeViewController.swift */; };
+		8FBB013C1CBE882D00671817 /* ZBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB013B1CBE882C00671817 /* ZBMessageViewController.swift */; };
+		8FBB013E1CBE884C00671817 /* ZBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB013D1CBE884C00671817 /* ZBProfileViewController.swift */; };
+		8FBB01401CBE88B400671817 /* ZBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB013F1CBE88B400671817 /* ZBTabBarController.swift */; };
+		8FBB01421CBE907B00671817 /* ZBTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB01411CBE907B00671817 /* ZBTabBar.swift */; };
+		8FBB01441CBE98AF00671817 /* ZBVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB01431CBE98AF00671817 /* ZBVisitorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FBB00FF1CBE7E5600671817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBB00E21CBE7E5600671817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBB00E91CBE7E5600671817;
+			remoteInfo = SinaWeibo02;
+		};
+		8FBB010A1CBE7E5600671817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBB00E21CBE7E5600671817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBB00E91CBE7E5600671817;
+			remoteInfo = SinaWeibo02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDB62868FE3516A4A0E62AE /* Pods-SinaWeibo02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaWeibo02.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinaWeibo02/Pods-SinaWeibo02.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF037EE09E7857BA21F365F /* Pods-SinaWeibo02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaWeibo02.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinaWeibo02/Pods-SinaWeibo02.release.xcconfig"; sourceTree = "<group>"; };
+		8FBB00EA1CBE7E5600671817 /* SinaWeibo02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWeibo02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBB00ED1CBE7E5600671817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FBB00F41CBE7E5600671817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FBB00F91CBE7E5600671817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBB00FE1CBE7E5600671817 /* SinaWeibo02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeibo02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBB01021CBE7E5600671817 /* SinaWeibo02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeibo02Tests.swift; sourceTree = "<group>"; };
+		8FBB01041CBE7E5600671817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBB01091CBE7E5600671817 /* SinaWeibo02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeibo02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBB010D1CBE7E5600671817 /* SinaWeibo02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeibo02UITests.swift; sourceTree = "<group>"; };
+		8FBB010F1CBE7E5600671817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBB01351CBE859F00671817 /* ZBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZBBaseViewController.swift; path = ../../../../ZBBaseViewController.swift; sourceTree = "<group>"; };
+		8FBB01371CBE87DC00671817 /* ZBDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBDiscoverViewController.swift; sourceTree = "<group>"; };
+		8FBB01391CBE881400671817 /* ZBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBHomeViewController.swift; sourceTree = "<group>"; };
+		8FBB013B1CBE882C00671817 /* ZBMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBMessageViewController.swift; sourceTree = "<group>"; };
+		8FBB013D1CBE884C00671817 /* ZBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBProfileViewController.swift; sourceTree = "<group>"; };
+		8FBB013F1CBE88B400671817 /* ZBTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBTabBarController.swift; sourceTree = "<group>"; };
+		8FBB01411CBE907B00671817 /* ZBTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBTabBar.swift; sourceTree = "<group>"; };
+		8FBB01431CBE98AF00671817 /* ZBVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBVisitorView.swift; sourceTree = "<group>"; };
+		B475769FC000C9C5422070FB /* Pods_SinaWeibo02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SinaWeibo02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBB00E71CBE7E5600671817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075D1EC9CC3D22F708322E51 /* Pods_SinaWeibo02.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBB00FB1CBE7E5600671817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBB01061CBE7E5600671817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7038A56CE1D8A03DCB8B5F1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB62868FE3516A4A0E62AE /* Pods-SinaWeibo02.debug.xcconfig */,
+				5BF037EE09E7857BA21F365F /* Pods-SinaWeibo02.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FBB00E11CBE7E5600671817 = {
+			isa = PBXGroup;
+			children = (
+				8FBB00EC1CBE7E5600671817 /* SinaWeibo02 */,
+				8FBB01011CBE7E5600671817 /* SinaWeibo02Tests */,
+				8FBB010C1CBE7E5600671817 /* SinaWeibo02UITests */,
+				8FBB00EB1CBE7E5600671817 /* Products */,
+				7038A56CE1D8A03DCB8B5F1D /* Pods */,
+				966F8B7BC0B8F5D0EB43E10A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBB00EB1CBE7E5600671817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB00EA1CBE7E5600671817 /* SinaWeibo02.app */,
+				8FBB00FE1CBE7E5600671817 /* SinaWeibo02Tests.xctest */,
+				8FBB01091CBE7E5600671817 /* SinaWeibo02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBB00EC1CBE7E5600671817 /* SinaWeibo02 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB00ED1CBE7E5600671817 /* AppDelegate.swift */,
+				8FBB011B1CBE84AD00671817 /* Classes */,
+				8FBB00F41CBE7E5600671817 /* Assets.xcassets */,
+				8FBB00F91CBE7E5600671817 /* Info.plist */,
+			);
+			path = SinaWeibo02;
+			sourceTree = "<group>";
+		};
+		8FBB01011CBE7E5600671817 /* SinaWeibo02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01021CBE7E5600671817 /* SinaWeibo02Tests.swift */,
+				8FBB01041CBE7E5600671817 /* Info.plist */,
+			);
+			path = SinaWeibo02Tests;
+			sourceTree = "<group>";
+		};
+		8FBB010C1CBE7E5600671817 /* SinaWeibo02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB010D1CBE7E5600671817 /* SinaWeibo02UITests.swift */,
+				8FBB010F1CBE7E5600671817 /* Info.plist */,
+			);
+			path = SinaWeibo02UITests;
+			sourceTree = "<group>";
+		};
+		8FBB011B1CBE84AD00671817 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB011C1CBE84AD00671817 /* Extension */,
+				8FBB011D1CBE84AD00671817 /* Lib */,
+				8FBB011E1CBE84AD00671817 /* Model */,
+				8FBB011F1CBE84AD00671817 /* Module */,
+				8FBB01341CBE84AD00671817 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8FBB011C1CBE84AD00671817 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8FBB011D1CBE84AD00671817 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8FBB011E1CBE84AD00671817 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FBB011F1CBE84AD00671817 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01281CBE84AD00671817 /* Main */,
+				8FBB01201CBE84AD00671817 /* Discover */,
+				8FBB01241CBE84AD00671817 /* Home */,
+				8FBB012C1CBE84AD00671817 /* Message */,
+				8FBB01301CBE84AD00671817 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		8FBB01201CBE84AD00671817 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01211CBE84AD00671817 /* Controller */,
+				8FBB01221CBE84AD00671817 /* Model */,
+				8FBB01231CBE84AD00671817 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		8FBB01211CBE84AD00671817 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01371CBE87DC00671817 /* ZBDiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FBB01221CBE84AD00671817 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FBB01231CBE84AD00671817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FBB01241CBE84AD00671817 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01251CBE84AD00671817 /* Controller */,
+				8FBB01261CBE84AD00671817 /* Model */,
+				8FBB01271CBE84AD00671817 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8FBB01251CBE84AD00671817 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01391CBE881400671817 /* ZBHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FBB01261CBE84AD00671817 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FBB01271CBE84AD00671817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FBB01281CBE84AD00671817 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01291CBE84AD00671817 /* Controller */,
+				8FBB012A1CBE84AD00671817 /* Model */,
+				8FBB012B1CBE84AD00671817 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8FBB01291CBE84AD00671817 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01351CBE859F00671817 /* ZBBaseViewController.swift */,
+				8FBB013F1CBE88B400671817 /* ZBTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FBB012A1CBE84AD00671817 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FBB012B1CBE84AD00671817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01411CBE907B00671817 /* ZBTabBar.swift */,
+				8FBB01431CBE98AF00671817 /* ZBVisitorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FBB012C1CBE84AD00671817 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB012D1CBE84AD00671817 /* Controller */,
+				8FBB012E1CBE84AD00671817 /* Model */,
+				8FBB012F1CBE84AD00671817 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8FBB012D1CBE84AD00671817 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB013B1CBE882C00671817 /* ZBMessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FBB012E1CBE84AD00671817 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FBB012F1CBE84AD00671817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FBB01301CBE84AD00671817 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB01311CBE84AD00671817 /* Controller */,
+				8FBB01321CBE84AD00671817 /* Model */,
+				8FBB01331CBE84AD00671817 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8FBB01311CBE84AD00671817 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FBB013D1CBE884C00671817 /* ZBProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FBB01321CBE84AD00671817 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FBB01331CBE84AD00671817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FBB01341CBE84AD00671817 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		966F8B7BC0B8F5D0EB43E10A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B475769FC000C9C5422070FB /* Pods_SinaWeibo02.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBB00E91CBE7E5600671817 /* SinaWeibo02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBB01121CBE7E5600671817 /* Build configuration list for PBXNativeTarget "SinaWeibo02" */;
+			buildPhases = (
+				10EE57C1C57556E0E084B386 /* Check Pods Manifest.lock */,
+				8FBB00E61CBE7E5600671817 /* Sources */,
+				8FBB00E71CBE7E5600671817 /* Frameworks */,
+				8FBB00E81CBE7E5600671817 /* Resources */,
+				9427E8E124CE421417FF749E /* Embed Pods Frameworks */,
+				8E4E77F821B07E5B77765E5B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaWeibo02;
+			productName = SinaWeibo02;
+			productReference = 8FBB00EA1CBE7E5600671817 /* SinaWeibo02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FBB00FD1CBE7E5600671817 /* SinaWeibo02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBB01151CBE7E5600671817 /* Build configuration list for PBXNativeTarget "SinaWeibo02Tests" */;
+			buildPhases = (
+				8FBB00FA1CBE7E5600671817 /* Sources */,
+				8FBB00FB1CBE7E5600671817 /* Frameworks */,
+				8FBB00FC1CBE7E5600671817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBB01001CBE7E5600671817 /* PBXTargetDependency */,
+			);
+			name = SinaWeibo02Tests;
+			productName = SinaWeibo02Tests;
+			productReference = 8FBB00FE1CBE7E5600671817 /* SinaWeibo02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FBB01081CBE7E5600671817 /* SinaWeibo02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBB01181CBE7E5600671817 /* Build configuration list for PBXNativeTarget "SinaWeibo02UITests" */;
+			buildPhases = (
+				8FBB01051CBE7E5600671817 /* Sources */,
+				8FBB01061CBE7E5600671817 /* Frameworks */,
+				8FBB01071CBE7E5600671817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBB010B1CBE7E5600671817 /* PBXTargetDependency */,
+			);
+			name = SinaWeibo02UITests;
+			productName = SinaWeibo02UITests;
+			productReference = 8FBB01091CBE7E5600671817 /* SinaWeibo02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBB00E21CBE7E5600671817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZB;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Macx;
+				TargetAttributes = {
+					8FBB00E91CBE7E5600671817 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = W8GKCF92K6;
+					};
+					8FBB00FD1CBE7E5600671817 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = W8GKCF92K6;
+						TestTargetID = 8FBB00E91CBE7E5600671817;
+					};
+					8FBB01081CBE7E5600671817 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = W8GKCF92K6;
+						TestTargetID = 8FBB00E91CBE7E5600671817;
+					};
+				};
+			};
+			buildConfigurationList = 8FBB00E51CBE7E5600671817 /* Build configuration list for PBXProject "SinaWeibo02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FBB00E11CBE7E5600671817;
+			productRefGroup = 8FBB00EB1CBE7E5600671817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBB00E91CBE7E5600671817 /* SinaWeibo02 */,
+				8FBB00FD1CBE7E5600671817 /* SinaWeibo02Tests */,
+				8FBB01081CBE7E5600671817 /* SinaWeibo02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FBB00E81CBE7E5600671817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBB00F51CBE7E5600671817 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBB00FC1CBE7E5600671817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBB01071CBE7E5600671817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10EE57C1C57556E0E084B386 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4E77F821B07E5B77765E5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaWeibo02/Pods-SinaWeibo02-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9427E8E124CE421417FF749E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaWeibo02/Pods-SinaWeibo02-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBB00E61CBE7E5600671817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBB00EE1CBE7E5600671817 /* AppDelegate.swift in Sources */,
+				8FBB01421CBE907B00671817 /* ZBTabBar.swift in Sources */,
+				8FBB013A1CBE881400671817 /* ZBHomeViewController.swift in Sources */,
+				8FBB013E1CBE884C00671817 /* ZBProfileViewController.swift in Sources */,
+				8FBB013C1CBE882D00671817 /* ZBMessageViewController.swift in Sources */,
+				8FBB01441CBE98AF00671817 /* ZBVisitorView.swift in Sources */,
+				8FBB01401CBE88B400671817 /* ZBTabBarController.swift in Sources */,
+				8FBB01361CBE859F00671817 /* ZBBaseViewController.swift in Sources */,
+				8FBB01381CBE87DC00671817 /* ZBDiscoverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBB00FA1CBE7E5600671817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBB01031CBE7E5600671817 /* SinaWeibo02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBB01051CBE7E5600671817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBB010E1CBE7E5600671817 /* SinaWeibo02UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FBB01001CBE7E5600671817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBB00E91CBE7E5600671817 /* SinaWeibo02 */;
+			targetProxy = 8FBB00FF1CBE7E5600671817 /* PBXContainerItemProxy */;
+		};
+		8FBB010B1CBE7E5600671817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBB00E91CBE7E5600671817 /* SinaWeibo02 */;
+			targetProxy = 8FBB010A1CBE7E5600671817 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8FBB01101CBE7E5600671817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FBB01111CBE7E5600671817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FBB01131CBE7E5600671817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDB62868FE3516A4A0E62AE /* Pods-SinaWeibo02.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = SinaWeibo02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.SinaWeibo02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FBB01141CBE7E5600671817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF037EE09E7857BA21F365F /* Pods-SinaWeibo02.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = SinaWeibo02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.SinaWeibo02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FBB01161CBE7E5600671817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinaWeibo02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.SinaWeibo02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaWeibo02.app/SinaWeibo02";
+			};
+			name = Debug;
+		};
+		8FBB01171CBE7E5600671817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinaWeibo02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.SinaWeibo02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaWeibo02.app/SinaWeibo02";
+			};
+			name = Release;
+		};
+		8FBB01191CBE7E5600671817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinaWeibo02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.SinaWeibo02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinaWeibo02;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8FBB011A1CBE7E5600671817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinaWeibo02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.SinaWeibo02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinaWeibo02;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBB00E51CBE7E5600671817 /* Build configuration list for PBXProject "SinaWeibo02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBB01101CBE7E5600671817 /* Debug */,
+				8FBB01111CBE7E5600671817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBB01121CBE7E5600671817 /* Build configuration list for PBXNativeTarget "SinaWeibo02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBB01131CBE7E5600671817 /* Debug */,
+				8FBB01141CBE7E5600671817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBB01151CBE7E5600671817 /* Build configuration list for PBXNativeTarget "SinaWeibo02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBB01161CBE7E5600671817 /* Debug */,
+				8FBB01171CBE7E5600671817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBB01181CBE7E5600671817 /* Build configuration list for PBXNativeTarget "SinaWeibo02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBB01191CBE7E5600671817 /* Debug */,
+				8FBB011A1CBE7E5600671817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FBB00E21CBE7E5600671817 /* Project object */;
+}
