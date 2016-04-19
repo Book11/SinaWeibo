@@ -11,5 +11,5 @@ pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'SVProgressHUD'
 pod 'SnapKit', '0.19.1'
-
+pod 'SVPullToRefresh' # pod install 只需要执行一次,后面添加或删除都是使用update  // --no-repo-update
 end

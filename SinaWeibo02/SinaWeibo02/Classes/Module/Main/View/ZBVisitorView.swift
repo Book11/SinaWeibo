@@ -13,7 +13,7 @@ class ZBVisitorView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-       self.backgroundColor=UIColor.yellowColor()
+//       self.backgroundColor=UIColor.yellowColor()
     }
 
     required init?(coder aDecoder: NSCoder) {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		075D1EC9CC3D22F708322E51 /* Pods_SinaWeibo02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B475769FC000C9C5422070FB /* Pods_SinaWeibo02.framework */; };
+		8F7A89CB1CC28C100021DB92 /* ZBHomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A89CA1CC28C100021DB92 /* ZBHomeButton.swift */; };
 		8FBB00EE1CBE7E5600671817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB00ED1CBE7E5600671817 /* AppDelegate.swift */; };
 		8FBB00F51CBE7E5600671817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBB00F41CBE7E5600671817 /* Assets.xcassets */; };
 		8FBB01031CBE7E5600671817 /* SinaWeibo02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB01021CBE7E5600671817 /* SinaWeibo02Tests.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0DDB62868FE3516A4A0E62AE /* Pods-SinaWeibo02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaWeibo02.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinaWeibo02/Pods-SinaWeibo02.debug.xcconfig"; sourceTree = "<group>"; };
 		5BF037EE09E7857BA21F365F /* Pods-SinaWeibo02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaWeibo02.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinaWeibo02/Pods-SinaWeibo02.release.xcconfig"; sourceTree = "<group>"; };
+		8F7A89CA1CC28C100021DB92 /* ZBHomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBHomeButton.swift; sourceTree = "<group>"; };
 		8FBB00EA1CBE7E5600671817 /* SinaWeibo02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWeibo02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBB00ED1CBE7E5600671817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FBB00F41CBE7E5600671817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 		8FBB01271CBE84AD00671817 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8F7A89CA1CC28C100021DB92 /* ZBHomeButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				8FBB013E1CBE884C00671817 /* ZBProfileViewController.swift in Sources */,
 				8FBB013C1CBE882D00671817 /* ZBMessageViewController.swift in Sources */,
 				8FBB01441CBE98AF00671817 /* ZBVisitorView.swift in Sources */,
+				8F7A89CB1CC28C100021DB92 /* ZBHomeButton.swift in Sources */,
 				8FBB01401CBE88B400671817 /* ZBTabBarController.swift in Sources */,
 				8FBB01361CBE859F00671817 /* ZBBaseViewController.swift in Sources */,
 				8FBB01381CBE87DC00671817 /* ZBDiscoverViewController.swift in Sources */,

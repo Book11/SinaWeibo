@@ -87,11 +87,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-SinaWeibo/AFNetworking.framework"
   install_framework "Pods-SinaWeibo/SDWebImage.framework"
   install_framework "Pods-SinaWeibo/SVProgressHUD.framework"
+  install_framework "Pods-SinaWeibo/SVPullToRefresh.framework"
   install_framework "Pods-SinaWeibo/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-SinaWeibo/AFNetworking.framework"
   install_framework "Pods-SinaWeibo/SDWebImage.framework"
   install_framework "Pods-SinaWeibo/SVProgressHUD.framework"
+  install_framework "Pods-SinaWeibo/SVPullToRefresh.framework"
   install_framework "Pods-SinaWeibo/SnapKit.framework"
 fi

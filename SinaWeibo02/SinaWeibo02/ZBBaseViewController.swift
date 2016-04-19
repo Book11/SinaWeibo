@@ -13,9 +13,24 @@ class ZBBaseViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view=ZBVisitorView()
+         userLogin ? super.loadView():setUpViews()
+        
+        
         
     }
+    
+    
+    private func setUpViews(){
+        
+     view=ZBVisitorView()
+        
+        
+        
+
+    }
+    
+    
+    
     
     
 }
